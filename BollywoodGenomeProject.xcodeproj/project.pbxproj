@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32D2C4F91ABC4B5E00687B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D2C4F81ABC4B5E00687B9B /* AppDelegate.swift */; };
+		32D2C4FB1ABC4B5E00687B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D2C4FA1ABC4B5E00687B9B /* ViewController.swift */; };
+		32D2C4FE1ABC4B5E00687B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D2C4FC1ABC4B5E00687B9B /* Main.storyboard */; };
+		32D2C5001ABC4B5E00687B9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D2C4FF1ABC4B5E00687B9B /* Images.xcassets */; };
+		32D2C5031ABC4B5E00687B9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D2C5011ABC4B5E00687B9B /* LaunchScreen.xib */; };
+		32D2C50F1ABC4B5E00687B9B /* BollywoodGenomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D2C50E1ABC4B5E00687B9B /* BollywoodGenomeProjectTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32D2C5091ABC4B5E00687B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32D2C4EB1ABC4B5D00687B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D2C4F21ABC4B5D00687B9B;
+			remoteInfo = BollywoodGenomeProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32D2C4F31ABC4B5E00687B9B /* BollywoodGenomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BollywoodGenomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D2C4F71ABC4B5E00687B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D2C4F81ABC4B5E00687B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32D2C4FA1ABC4B5E00687B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32D2C4FD1ABC4B5E00687B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32D2C4FF1ABC4B5E00687B9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32D2C5021ABC4B5E00687B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32D2C5081ABC4B5E00687B9B /* BollywoodGenomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BollywoodGenomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D2C50D1ABC4B5E00687B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D2C50E1ABC4B5E00687B9B /* BollywoodGenomeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BollywoodGenomeProjectTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D2C4F01ABC4B5D00687B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D2C5051ABC4B5E00687B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32D2C4EA1ABC4B5D00687B9B = {
+			isa = PBXGroup;
+			children = (
+				32D2C4F51ABC4B5E00687B9B /* BollywoodGenomeProject */,
+				32D2C50B1ABC4B5E00687B9B /* BollywoodGenomeProjectTests */,
+				32D2C4F41ABC4B5E00687B9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32D2C4F41ABC4B5E00687B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D2C4F31ABC4B5E00687B9B /* BollywoodGenomeProject.app */,
+				32D2C5081ABC4B5E00687B9B /* BollywoodGenomeProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32D2C4F51ABC4B5E00687B9B /* BollywoodGenomeProject */ = {
+			isa = PBXGroup;
+			children = (
+				32D2C4F81ABC4B5E00687B9B /* AppDelegate.swift */,
+				32D2C4FA1ABC4B5E00687B9B /* ViewController.swift */,
+				32D2C4FC1ABC4B5E00687B9B /* Main.storyboard */,
+				32D2C4FF1ABC4B5E00687B9B /* Images.xcassets */,
+				32D2C5011ABC4B5E00687B9B /* LaunchScreen.xib */,
+				32D2C4F61ABC4B5E00687B9B /* Supporting Files */,
+			);
+			path = BollywoodGenomeProject;
+			sourceTree = "<group>";
+		};
+		32D2C4F61ABC4B5E00687B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D2C4F71ABC4B5E00687B9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32D2C50B1ABC4B5E00687B9B /* BollywoodGenomeProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				32D2C50E1ABC4B5E00687B9B /* BollywoodGenomeProjectTests.swift */,
+				32D2C50C1ABC4B5E00687B9B /* Supporting Files */,
+			);
+			path = BollywoodGenomeProjectTests;
+			sourceTree = "<group>";
+		};
+		32D2C50C1ABC4B5E00687B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D2C50D1ABC4B5E00687B9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32D2C4F21ABC4B5D00687B9B /* BollywoodGenomeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D2C5121ABC4B5E00687B9B /* Build configuration list for PBXNativeTarget "BollywoodGenomeProject" */;
+			buildPhases = (
+				32D2C4EF1ABC4B5D00687B9B /* Sources */,
+				32D2C4F01ABC4B5D00687B9B /* Frameworks */,
+				32D2C4F11ABC4B5D00687B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BollywoodGenomeProject;
+			productName = BollywoodGenomeProject;
+			productReference = 32D2C4F31ABC4B5E00687B9B /* BollywoodGenomeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32D2C5071ABC4B5E00687B9B /* BollywoodGenomeProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D2C5151ABC4B5E00687B9B /* Build configuration list for PBXNativeTarget "BollywoodGenomeProjectTests" */;
+			buildPhases = (
+				32D2C5041ABC4B5E00687B9B /* Sources */,
+				32D2C5051ABC4B5E00687B9B /* Frameworks */,
+				32D2C5061ABC4B5E00687B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32D2C50A1ABC4B5E00687B9B /* PBXTargetDependency */,
+			);
+			name = BollywoodGenomeProjectTests;
+			productName = BollywoodGenomeProjectTests;
+			productReference = 32D2C5081ABC4B5E00687B9B /* BollywoodGenomeProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32D2C4EB1ABC4B5D00687B9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Stanford University";
+				TargetAttributes = {
+					32D2C4F21ABC4B5D00687B9B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					32D2C5071ABC4B5E00687B9B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 32D2C4F21ABC4B5D00687B9B;
+					};
+				};
+			};
+			buildConfigurationList = 32D2C4EE1ABC4B5D00687B9B /* Build configuration list for PBXProject "BollywoodGenomeProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32D2C4EA1ABC4B5D00687B9B;
+			productRefGroup = 32D2C4F41ABC4B5E00687B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D2C4F21ABC4B5D00687B9B /* BollywoodGenomeProject */,
+				32D2C5071ABC4B5E00687B9B /* BollywoodGenomeProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D2C4F11ABC4B5D00687B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D2C4FE1ABC4B5E00687B9B /* Main.storyboard in Resources */,
+				32D2C5031ABC4B5E00687B9B /* LaunchScreen.xib in Resources */,
+				32D2C5001ABC4B5E00687B9B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D2C5061ABC4B5E00687B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D2C4EF1ABC4B5D00687B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D2C4FB1ABC4B5E00687B9B /* ViewController.swift in Sources */,
+				32D2C4F91ABC4B5E00687B9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D2C5041ABC4B5E00687B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D2C50F1ABC4B5E00687B9B /* BollywoodGenomeProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32D2C50A1ABC4B5E00687B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D2C4F21ABC4B5D00687B9B /* BollywoodGenomeProject */;
+			targetProxy = 32D2C5091ABC4B5E00687B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32D2C4FC1ABC4B5E00687B9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D2C4FD1ABC4B5E00687B9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32D2C5011ABC4B5E00687B9B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D2C5021ABC4B5E00687B9B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32D2C5101ABC4B5E00687B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32D2C5111ABC4B5E00687B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32D2C5131ABC4B5E00687B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BollywoodGenomeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32D2C5141ABC4B5E00687B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BollywoodGenomeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32D2C5161ABC4B5E00687B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BollywoodGenomeProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BollywoodGenomeProject.app/BollywoodGenomeProject";
+			};
+			name = Debug;
+		};
+		32D2C5171ABC4B5E00687B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BollywoodGenomeProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BollywoodGenomeProject.app/BollywoodGenomeProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32D2C4EE1ABC4B5D00687B9B /* Build configuration list for PBXProject "BollywoodGenomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D2C5101ABC4B5E00687B9B /* Debug */,
+				32D2C5111ABC4B5E00687B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D2C5121ABC4B5E00687B9B /* Build configuration list for PBXNativeTarget "BollywoodGenomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D2C5131ABC4B5E00687B9B /* Debug */,
+				32D2C5141ABC4B5E00687B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32D2C5151ABC4B5E00687B9B /* Build configuration list for PBXNativeTarget "BollywoodGenomeProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D2C5161ABC4B5E00687B9B /* Debug */,
+				32D2C5171ABC4B5E00687B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32D2C4EB1ABC4B5D00687B9B /* Project object */;
+}
